@@ -11,10 +11,10 @@
   --clr-green: hsla(166, 100%, 37%, 1);
   --clr-blue: hsla(234, 85%, 45%, 1);
 
-  --clr-red-2: hsla(0, 100%, 67%, 0.1);
-  --clr-yellow-2: hsla(39, 100%, 56%, 0.1);
-  --clr-green-2: hsla(166, 100%, 37%, 0.1);
-  --clr-blue-2: hsla(234, 85%, 45%, 0.1);
+  --clr-red-2: hsla(0, 100%, 67%, 0.08);
+  --clr-yellow-2: hsla(39, 100%, 56%, 0.08);
+  --clr-green-2: hsla(166, 100%, 37%, 0.08);
+  --clr-blue-2: hsla(234, 85%, 45%, 0.08);
 
   // gradient color
   --clr-light-blue: #7857ff;
@@ -55,6 +55,11 @@ body {
   height: 1px;
   overflow: hidden;
 }
+
+h2 {
+  font-size: calc(var(--fs) + 5px);
+}
+
 .clr-gray {
   color: var(--clr-gray);
 }
@@ -124,7 +129,7 @@ b {
   background-color: var(--clr-gray);
   display: inline-block;
   font-size: var(--fs);
-  font-weight: 700;
+  font-weight: 500;
   color: var(--clr-white);
   cursor: pointer;
   transition: 0.3s;
@@ -146,7 +151,7 @@ b {
   display: flex;
   flex-direction: column;
   border-radius: none;
-  box-shadow: 0.2rem 0.2rem 3rem 0.01rem var(--clr-lavender);
+  box-shadow: 0.4rem 0.4rem 1rem 0.01rem #c8c7ff8e;
 }
 
 @media (min-width: 700px) {
