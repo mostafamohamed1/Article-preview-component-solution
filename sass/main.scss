@@ -47,7 +47,7 @@ body {
 
   font-size: var(--fs);
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .sr_only {
@@ -230,7 +230,7 @@ b {
   }
 
   &:last-child {
-    margin-block-end: 2.5rem;
+    margin-block-end: 2.4rem;
   }
 }
 
@@ -239,12 +239,16 @@ b {
   align-items: center;
 }
 
-.stat > :first-child object {
+.stat > :first-child img {
   margin-inline-end: 0.75rem;
 }
 
 .stat > :first-child span {
   text-transform: capitalize;
+}
+
+.stat p {
+  color: #999;
 }
 
 // Footer
