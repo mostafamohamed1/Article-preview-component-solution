@@ -10,7 +10,4 @@ This is my solution to the Article preview component challenge frontend mentor.
 
 
 
-## Author
-
-@mostafamohamed1
 
