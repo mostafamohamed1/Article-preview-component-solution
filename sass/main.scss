@@ -56,6 +56,10 @@ body {
   overflow: hidden;
 }
 
+.pe-sm {
+  padding-block-end: 0.75rem;
+}
+
 h2 {
   font-size: calc(var(--fs) + 5px);
 }
@@ -72,7 +76,6 @@ p {
 .clr-white {
   color: var(--clr-white);
   font-size: 2rem;
-  padding-block-end: 0.75rem;
 }
 
 .clr-red {
@@ -210,7 +213,7 @@ b {
 
 .summary {
   flex: 0 0 100%;
-  padding-inline: 2.4rem;
+  padding-inline: 2.1rem;
 }
 
 .stats {
@@ -230,7 +233,7 @@ b {
   }
 
   &:last-child {
-    margin-block-end: 2.4rem;
+    margin-block-end: 2.2rem;
   }
 }
 
