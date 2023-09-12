@@ -213,7 +213,7 @@ b {
 
 .summary {
   flex: 0 0 100%;
-  padding-inline: 2.1rem;
+  padding-inline: 1.8rem;
 }
 
 .stats {
@@ -233,7 +233,7 @@ b {
   }
 
   &:last-child {
-    margin-block-end: 2.2rem;
+    margin-block-end: 2.1rem;
   }
 }
 
@@ -252,12 +252,4 @@ b {
 
 .stat p {
   color: #999;
-}
-
-// Footer
-.footer {
-  justify-self: end;
-  padding-block: 1em;
-
-  text-align: center;
 }
